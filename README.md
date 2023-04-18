@@ -22,19 +22,8 @@ These two genetic distance computation methods (Plucinski's Bayesian method and 
 ```bash
 bash run_BayHeur.sh
 ```
-> This will analyze 99 samples and produce a pairwise matrix of distances that can be used for downstream analysis.  
+> This will analyze the haplotype data sheet (HDS) within the haplotype_sheets directory and produce four pairwise genetic distance matrices that can be used for downstream analysis.  
 
-
-## Additional Information
-
-For additional detailed information on how these algorithms work please refer to our project [background](background.md).
-
-
-## Deployment
-
-<!-- need to update once on SciComp and CDCgov github -->
-
-This section will be updated in the future.
 
 
 ## Acknowledgments
