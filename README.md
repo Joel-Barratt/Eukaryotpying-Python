@@ -14,6 +14,7 @@ These two genetic distance computation methods (Plucinski's Bayesian method and 
 (4) The absence of distance statistics that appropriately consider all aspects of genetic data (e.g. allele frequency, entropy of loci, nuclear versus extranuclear inheritance). Simpler metrics such as Bray-Curtis dissimilarty and Jaccard distances fail to consider these aspects of genetic data.
 
 
+
 ### Running this code
 
 >While in the folder with all the files from the cloned Eukaryotyping github run:
