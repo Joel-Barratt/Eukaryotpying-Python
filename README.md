@@ -17,7 +17,7 @@ These two genetic distance computation methods (Plucinski's Bayesian method and 
 
 ### Running this code
 
->While in the folder with all the files from the cloned Eukaryotyping github run:
+>Update the "euktypDir" in the "run_BayHeur.sh" script. Then, while in the folder with all the files from the cloned Eukaryotyping github run:
 
 ```bash
 bash run_BayHeur.sh
