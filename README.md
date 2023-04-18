@@ -1,7 +1,7 @@
 # Eukaryotpying-Python
 This repository contains Python implementations of Plucinski's Bayesian algorithm and Barratt's heuristic definition of genetic distance. These two methods compute genetic distances for subsequent heirarcical clustering. The methods requires MLST data as input represented specifically in the form of a Haplotype Data Sheet or HDS. An example of this HDS format is provided in this repository in the "haplotype_sheets" directory. The code will then compute four genetic distances matrices and print these in the "ensemble_matrices" directory.
 
-These two genetic distance computation methods (Plucinski's Bayesian method and Barratt's heuristic definition of genetic distance) were developed to address four main issues relating to the analysis of massive and complex MLST datasets:
+These two genetic distance computation methods (Plucinski's Bayesian method and Barratt's heuristic definition of genetic distance - nicknamed the "Eukaryotyping" method) were developed to address four main issues relating to the analysis of massive and complex MLST datasets:
 
  1. The common occurrence of missing data in genotyping datasets (e.g. such as a situation where 2 or 3 out of 6 multi-locus sequence typing loci fail to amplify for a subset of your specimens).
 
