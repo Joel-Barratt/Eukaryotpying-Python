@@ -3,7 +3,7 @@
 
 
 
-euktypDir=/Users/joelbarratt/Documents/NEW_MODULE_3_WORK/PYTHON_DISTANCE_COMP_METHOD/cyclone-master-CYCLONE_MacOS_High_Sierra_BETA_1.001-EUKARYOTYPING/CYCLONE_MacOS_High_Sierra_BETA_1.001/DISTCOMP
+euktypDir=/Users/joelbarratt/Documents/wherever_you_unzipped_your_code/DISTCOMP # modify as required
 
 
 #Define input and output dir and file names
