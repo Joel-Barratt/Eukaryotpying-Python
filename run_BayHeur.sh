@@ -15,10 +15,10 @@ echo "The newest haplotype file is found:"
 echo $haplosheetPathFN
 outputDir="$(dirname "$pycodeDir")"/ensemble_matrices
 outputFNBase=${haplosheetFileName/.txt/""}
-outputhh="${outputDir}/${outputFNBase}_hh_matrixTEST.csv"
-outputbh="${outputDir}/${outputFNBase}_bh_matrixTEST.csv"
-outputB="${outputDir}/${outputFNBase}_B_matrixTEST.csv"
-outputH="${outputDir}/${outputFNBase}_H_matrixTEST.csv"
+outputhh="${outputDir}/${outputFNBase}_hh_matrix.csv" ## Outdated heuristic normalisation method -- can be ignored.
+outputbh="${outputDir}/${outputFNBase}_bh_matrix.csv" ## Ensemble matrix
+outputB="${outputDir}/${outputFNBase}_B_matrix.csv" ## Bayesian matrix
+outputH="${outputDir}/${outputFNBase}_H_matrix.csv" ## Heuristic matrix
 
 
 
