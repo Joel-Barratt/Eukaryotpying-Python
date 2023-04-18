@@ -5,14 +5,25 @@ The two methods described here compute genetic distances for subsequent heirarci
 
 These two genetic distance computation methods (Plucinski's Bayesian method and Barratt's heuristic definition of genetic distance) were developed to address four main issues relating to the analysis of massive and complex MLST datasets:
 
-(1) The common occurrence of missing data in genotyping datasets (e.g. such as a situation where 2 or 3 out of 6 multi-locus sequence typing loci fail to amplify for a subset of your specimens).
+ 1. The common occurrence of missing data in genotyping datasets (e.g. such as a situation where 2 or 3 out of 6 multi-locus sequence typing loci fail to amplify for a subset of your specimens).
 
-(2) The use of MLST methods in the context of sexually reproducing populations, where even closely related individuals may not possess the same genotype (and may be heterozygous) due to chromosomal crossover and random reassortment of chromosomes as occurs during meiosis.
+ 2. The use of MLST methods in the context of sexually reproducing populations, where even closely related individuals may not possess the same genotype (and may be heterozygous) due to chromosomal crossover and random reassortment of chromosomes as occurs during meiosis.
 
-(3) The issue of analyzing specimens which may be extremely complex, potentially representing mixed populations of individuals. Ever try to construct a phylogeny or generate a cluster dendrogram in a situation where for one MLST marker you detect one haplotype, at another you detect three, at another you detect four and another you detect two - in the same specimen? This is essentially what we deal with when we attempt to genotype Cyclospora cayetanensis directly from human stool. It gets extremely complicated.
+ 3. The issue of analyzing specimens which may be extremely complex, potentially representing mixed populations of individuals. Ever try to construct a phylogeny or generate a cluster dendrogram in a situation where for one MLST marker you detect one haplotype, at another you detect three, at another you detect four and another you detect two - in the same specimen? This is essentially what we deal with when we attempt to genotype *Cyclospora cayetanensis* directly from human stool. It gets extremely complicated.
+ 
+4. The absence of distance statistics that appropriately consider all aspects of genetic data (e.g. allele frequency, entropy of loci, nuclear versus extranuclear inheritance). Simpler metrics such as Bray-Curtis dissimilarty and Jaccard distances fail to consider these aspects of genetic data.
 
-(4) The absence of distance statistics that appropriately consider all aspects of genetic data (e.g. allele frequency, entropy of loci, nuclear versus extranuclear inheritance). Simpler metrics such as Bray-Curtis dissimilarty and Jaccard distances fail to consider these aspects of genetic data.
+_Please cite the following manuscripts:_
 
+```
+1. Barratt, JLN, S Park, FS Nascimento, J Hofstetter, M Plucinski, S Casillas, RS Bradbury, MJ Arrowood, Y Qvarnstrom, E Talundzic (2019) Genotyping genetically heterogeneous Cyclospora cayetanensis infections to complement epidemiological case linkage. Parasitology:1–9 doi:10.1017/S0031182019000581
+
+
+2. Nascimento, FS, JLN Barratt, K Houghton, M Plucinski, J Kelley, S Casillas, C Bennett, C Snider, R Tuladhar, J Zhang, B Clemons, S Madison-Antenucci, A Russell, E Cebelinski, J Haan, T Robinson, MJ Arrowood, E Talundzic, RS Bradbury, and Y Qvarnstrom (2020) Evaluation of an ensemble-based distance statistic for clustering MLST datasets using epidemiologically defined clusters of cyclosporiasis. Epidemiology & Infection: 148, e172, 1–10. https://doi.org/10.1017/
+S0950268820001697
+
+3. Jacobson, D., Y Zheng, MM Plucinski, Y Qvarnstrom, JLN Barratt (2022) Evaluation of various distance computation methods for construction of haplotype-based phylogenies from large MLST datasets. Molecular Phylogenetics and Evolution: 177, 107608. https://doi.org/10.1016/j.ympev.2022.107608
+```
 
 
 ### Running this code
