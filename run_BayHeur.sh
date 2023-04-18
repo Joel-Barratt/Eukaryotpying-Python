@@ -25,7 +25,7 @@ outputH="${outputDir}/${outputFNBase}_H_matrix.csv" ## Heuristic matrix
 #Run the command -- first modify "markerList.txt to tell the code which markers are essential" 
 python3 $euktypDir/Pycode_distcomp/BayesianHeuristic.py -infile $haplosheetPathFN -outbh $outputbh -outhh $outputhh \
 -outB $outputB -outH $outputH -sampmeetlocirequire samplesMeetCutoff.txt \
--expectlocifile $euktypDir/Pycode_distcomp/markerList.txt -expectlocinumber 5
+-expectlocifile $euktypDir/Pycode_distcomp/markerList.txt -expectlocinumber 5 # edit the "expectlociflag" to tell the code how many of the markers within your essential "markerList.txt" are required for distance computation
 
 #Immediately the genotypes meeting the minimum data requirements will be printed (i.e., genotypes with any 5 markers (-expectlocinumner 5) within the file "markerList.txt").
 
