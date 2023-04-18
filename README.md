@@ -28,7 +28,7 @@ S0950268820001697
 
 ### Running this code
 
->Update the "euktypDir" in the "run_BayHeur.sh" script. Then, while in the folder with all the files from the cloned Eukaryotyping-Python github run:
+>Update the "euktypDir" in the "run_BayHeur.sh" script. Next, within the "/DISTCOMP/Pycode_distcomp/" directory update the "markerList.txt" file to indicate your marker requirements. Then, while in the folder with all the files from the cloned Eukaryotyping-Python github run:
 
 ```bash
 bash run_BayHeur.sh
