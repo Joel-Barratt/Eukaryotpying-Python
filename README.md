@@ -32,7 +32,8 @@ S0950268820001697
 bash run_BayHeur.sh
 ```
 > This will analyze the haplotype data sheet (HDS) within the haplotype_sheets directory and produce four pairwise genetic distance matrices that can be used for downstream analysis.
-> TIP: Open the "run_BayHeur.sh" script and take a look at the comments in the script. This will provide information on how to modify certain flags to fine-tune the minimum data availability requirements.
+> 
+> TIP: Open the "run_BayHeur.sh" script and take a look at the comments in the script. This will provide information on how to modify certain flags to fine-tune the minimum data availability requirements. Dependencies are fairly standard (numpy, pandas etc) and you will likely already have these installed. If you obtain a ModuleNotFoundError, then just install the missing module.
 
 
 
